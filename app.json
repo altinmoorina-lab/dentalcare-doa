@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "DentalCare DOA",
+    "slug": "dentalcare-doa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#0A2A3B",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dentalcaredoa.prototype"
+    },
+    "android": {
+      "package": "com.dentalcaredoa.prototype",
+      "adaptiveIcon": {
+        "backgroundColor": "#211F20",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/clinic/logo.png",
+          "imageWidth": 160,
+          "resizeMode": "contain",
+          "backgroundColor": "#0A2A3B"
+        }
+      ]
+    ]
+  }
+}

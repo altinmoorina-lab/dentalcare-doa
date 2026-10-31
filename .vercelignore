@@ -1,0 +1,5 @@
+server/
+docs/
+node_modules
+dist
+.expo

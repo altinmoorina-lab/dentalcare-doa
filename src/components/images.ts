@@ -1,0 +1,15 @@
+export const img = {
+  heroChair: require("../../assets/images/stock/hero-chair.jpg"),
+  clinicBright: require("../../assets/images/stock/clinic-bright.jpg"),
+  treatment: require("../../assets/images/stock/treatment.jpg"),
+  consult: require("../../assets/images/stock/consult.jpg"),
+  xray: require("../../assets/images/stock/xray.jpg"),
+  scan: require("../../assets/images/stock/scan.jpg"),
+  exam: require("../../assets/images/stock/exam.jpg"),
+  maskMirror: require("../../assets/images/stock/mask-mirror.jpg"),
+  smile: require("../../assets/images/stock/smile.jpg"),
+  aligner: require("../../assets/images/stock/aligner.jpg"),
+  igVeneers: require("../../assets/images/clinic/ig-veneers.jpg"),
+  igSmile: require("../../assets/images/clinic/ig-smile.jpg"),
+  igWork: require("../../assets/images/clinic/ig-work.jpg"),
+};
